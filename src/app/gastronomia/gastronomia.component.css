@@ -1,22 +1,36 @@
-ul{
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  ul{
     color: #369;
     font-family: 'Courier New', Courier, monospace;
   }
   button{
     background-color: aquamarine;
   }
-  nav {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
+  h5{
+    color: #333;
   }
+  h3,p, label, div{
+    color: rgb(245, 245, 245);
+  }
+  
   h1 {
       color: #369;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 250%;
     }
-    h2, h3 {
-      color: #444;
+    h2{
+      color: #ffffff;
       font-family: Arial, Helvetica, sans-serif;
       font-weight: lighter;
     }
